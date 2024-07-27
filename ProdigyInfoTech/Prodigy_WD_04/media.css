@@ -1,0 +1,155 @@
+
+#check:checked ~ul{
+    left: -23%;
+}
+
+@media(max-width: 768px){
+    #checkbtn{
+        display: block;
+    }
+    nav ul.active{
+        display: none;
+    }
+    nav ul{
+        width: 450px;
+        display: block;
+        /* display: none; */
+        height: 30vh;
+        background-color: rgb(0, 4, 255);
+        position: fixed;
+        top: 28px;
+        left: -130%;
+        transition: 0.5s; 
+
+        
+    } 
+    nav ul li{
+        display: block;
+        text-align: center;        
+        margin: 10px;
+        margin-left: 100px;       
+        
+    } 
+    nav .logo{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    
+    
+    .leftsection .buttons a{
+        
+        margin: 5px;
+       
+
+    }
+    .firstsection div{ 
+        
+        max-width: 100%;
+        
+
+    }  
+   
+    .firstsection img{
+        height: 200px;
+        width: 200px;
+        
+        transform: translate(30% , -15%);
+        
+    }
+
+    
+    .rightsection{
+        display: block;
+        
+        
+        
+        position: relative;
+        z-index: -1;
+    }
+   
+    .firstsection{
+       
+        flex-direction: column-reverse;
+        
+    }
+    .secondSection{
+        height: 120vh;
+    }
+    .buttons{
+        width: 500px;
+    }
+    
+    .firstsection .leftsection span{
+        width: 500px;
+    }
+    .firstsection .rightsection{
+        width: 500px;
+        display: inline;
+    }
+    .AboutContainer{
+        display: block;
+    }
+    .AboutContainer .rightAbout{
+        margin-top: 45px;
+        width: 70vw;
+    }
+    .ed-section .btech{
+        
+        flex-direction: column;
+    }
+    .ed-section{
+        display: block;
+    }
+    .ed-section .btech , .internshala , .simplilearn{
+        margin: 10px;
+    }
+    .skillSection .allSkills{
+        display: block;
+    }
+    .allSkills .rightSection{
+        margin-top: 20px;
+    }
+    .fifthSection{
+        height: 170vh;
+        
+    }
+    .fifthSection .educationSection{
+        /* margin-top: 0px; */
+        margin-left: 40px;
+        height: 100vh;
+        
+    }
+    .contactSection .contactInfo{
+        display: block;
+        margin-top: 0px;
+    }
+   
+    .contactInfo .rightcontact{
+        margin-top: 50px;
+    }
+    .lastSection .footer p{
+        margin: 0;
+        
+        font-size: 10px;
+    }
+    .footer img{
+        display: inline;
+        margin-left: 50px;
+        height: 10px;
+    }
+    .workSection{
+        height: 180vh;
+    }
+    
+
+}   
+
+
+
+
+
+
+
+
+
+

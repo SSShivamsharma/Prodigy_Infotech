@@ -1,0 +1,413 @@
+.popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    /* bottom: 10px; */
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* transform: translateX(-50%); */
+    /* padding: 20px; */
+    padding: 15px;
+    background-color: blueviolet;
+    border: 2px blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 20px;
+}
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+/* making the acrolling  smooth */
+html {
+    scroll-behavior: smooth;
+   
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+label.logo {
+    font-size: 30px;
+    color: white;
+    margin: 0 80px;
+    /* line-height: 80px; */
+}
+nav {
+    top: 0;
+    width: 100%;
+    /* height: 80px; */
+    background-color: blue;
+    z-index: 1000;
+    /* position: fixed; */
+    
+}
+nav ul {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+
+    /* display: inline-block; */
+    /* line-height: 80px; */
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+
+
+    /* padding: 8px 20px; */
+    color: white;
+    /* 16px by def  */
+    /* font-size: 18px; */
+    
+}
+#checkbtn {
+    float: right;
+    /* line-height: 80px; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+#check {
+    display: none;
+}
+
+
+
+
+
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0; 
+
+    /* new code  */
+    padding: 10px 20px;
+    align-items: center;
+    
+
+}
+.buttons a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+    font-size: 15px;
+    background-color: rgb(49, 49, 239);
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 10px;
+}
+.buttons a:hover {
+    background-color: purple;
+}
+/* .firstsection>div {
+    width: 30%;
+} */
+.leftsection {
+    font-size: 2rem;
+    /* width: 30%; */
+    max-width: 50%;
+}
+.rightsection {
+    width: 30%;
+}
+.rightsection img {
+    width: 300px;
+    border-radius: 50%;
+}
+nav ul a:hover {
+    text-decoration: none;
+    color: purple;
+    font-size: 1.1rem;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: blue;
+    margin: 0 50px 0;
+}
+.aboutmeSection .abtImage {
+    background-color: aqua;
+    width: 30%;
+}
+.aboutmeSection .abtImage img {
+    width: 250px;
+    border-radius: 50%;
+}
+.aboutme .aboutmeSection .abouttxt {
+    width: 30%;
+}
+#textid {
+    color: purple;
+}
+.fifthSection {
+    height: 95vh;
+}
+.fourthSection,
+.aboutSection,
+
+.seventhSection {
+    max-width: 80vw;
+    
+    margin: auto;
+    height: 80vh;
+}
+.educationSection{
+    max-width: 80vw;
+    margin-left: 105px;
+    
+    /* margin: auto; */
+    height: 80vh;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+.lastSection {
+    max-width: 80vw;
+    height: 20px;
+}
+.past-exp span {
+    font-size: 30px;
+    font-weight: 500;
+}
+.past-exp span1 {
+    padding-top: 10px;
+}
+.text-purple {
+    color: rgb(125, 42, 125);
+}
+.box {
+    margin: 56px 0;
+    width: 80vw;
+    background: blue;
+    height: 2px;
+    background-color: rgb(0, 21, 255);
+    display: flex;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+span2,
+span3,
+span4,
+span5,
+greet {
+    font-weight: 500;
+    font-size: 30px;
+}
+.ed-section {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+}
+.ed-section span-text {
+    color: blue;
+    font-size: 20px;
+}
+.ed-section .btech,
+.internshala,
+.simplilearn {
+    transition: background 0.5s, transform 0.5s;
+    background-color: rgb(2, 2, 52);
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 20px;
+    max-width: 300px;
+}
+.ed-section p {
+    margin: 5px;
+    padding: 10px;
+}
+.btech:hover,
+.internshala:hover,
+.simplilearn:hover {
+    font-size: 1.05rem;
+    box-shadow: 1px 1px 10px #3131efd2, 1px 1px 10px #0734caf7;
+    background: transparent;
+}
+.contactSection .contactInfo {
+    display: flex;
+    margin: 70px 0;
+    justify-content: space-around;
+    column-gap: 80px;
+}
+.htmlSkill pre {
+    font-size: 10px;
+}
+.contactInfo .leftcontact a {
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 8px;
+    background: transparent;
+}
+.leftcontact a {
+    text-decoration: none;
+    font-size: 5px;
+}
+.leftcontact a:hover {
+    color: purple;
+}
+.contactInfo .leftcontact a:hover {
+    box-shadow: 1px 1px 10px #3131efd2, 1px 1px 10px #0734caf7;
+}
+mylinktext {
+    color: purple;
+    font-size: 20px;
+}
+.rightcontact form input {
+    color: blue;
+    width: 200px;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    border-color: blue;
+}
+form input:focus {
+    border-color: blue;
+    outline: none;
+    box-shadow: 1px 1px 5px #3131efd2, 1px 1px 5px #0734caf7;
+}
+.rightcontact form textarea {
+    color: blue;
+    background-color: transparent;
+    border-color: blue;
+    margin: 8px;
+    border-radius: 8px;
+    width: 300px;
+    height: 80px;
+}
+.rightcontact form button {
+    padding: 8px;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.rightcontact form button:hover {
+    color: purple;
+    box-shadow: 1px 1px 10px #3131efd2, 1px 1px 10px #0734caf7;
+}
+form textarea:focus {
+    border-color: blue;
+    outline: none;
+    box-shadow: 1px 1px 5px #3131efd2, 1px 1px 5px #0734caf7;
+}
+form ::placeholder {
+    color: rgb(22, 22, 121);
+}
+.skillSection .allSkills {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 80px;
+}
+.AboutContainer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+.AboutContainer .leftAbout {
+    align-items: center;
+    justify-content: center;
+}
+.AboutContainer .leftAbout img {
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.AboutContainer .leftAbout {
+    width: 30%;
+}
+.AboutContainer .rightAbout {
+    width: 50%;
+}
+.htmlSkill {
+    background-color: whitesmoke;
+    width: 250px;
+    border-radius: 10px;
+    height: 10px;
+}
+.htmlSkill .progress-html {
+    background-color: rgb(248, 116, 1);
+    width: 180px;
+    height: 10px;
+    border-radius: 10px;
+}
+.progress-js {
+    background-color: yellow;
+    width: 90px;
+    height: 10px;
+    border-radius: 10px;
+}
+.progress-css {
+    background-color: rgb(16, 108, 237);
+    width: 120px;
+    height: 10px;
+    border-radius: 10px;
+}
+.progress-btstrp {
+    background-color: purple;
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+}
+.progress-react {
+    background-color: rgb(37, 151, 245);
+    width: 90px;
+    height: 10px;
+    border-radius: 10px;
+}
+.progress-cpp {
+    background-color: blue;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+}
+.progress-java {
+    background-color: rgb(60, 1, 148);
+    width: 120px;
+    height: 10px;
+    border-radius: 10px;
+}
+.progress-mysql {
+    background-color: rgb(52, 41, 95);
+    width: 80px;
+    height: 10px;
+    border-radius: 10px;
+}
+.progress-dsa {
+    background-color: rgb(255, 0, 166);
+    width: 70px;
+    height: 10px;
+    border-radius: 10px;
+}
+.lastSection .footer lastspan {
+    margin-left: 70px;
+}
+.lastSection .footer p{
+    margin-left: 380px;
+    display: inline;
+    float: right;
+}
